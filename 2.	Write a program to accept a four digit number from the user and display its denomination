@@ -1,0 +1,6 @@
+digit=input()
+#4 digit as input
+mul=1000
+for x in digit:
+    print(x,'*',mul,'=',int(x)*mul)
+    mul//=10
