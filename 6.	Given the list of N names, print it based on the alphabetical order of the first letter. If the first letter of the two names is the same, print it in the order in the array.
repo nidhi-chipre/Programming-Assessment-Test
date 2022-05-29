@@ -1,0 +1,6 @@
+size = int(input("Number of names:"))
+names = [input("Enter the name:") for _ in range(size)]
+names.sort()
+print(end="")
+for name in names:
+    print(name)
