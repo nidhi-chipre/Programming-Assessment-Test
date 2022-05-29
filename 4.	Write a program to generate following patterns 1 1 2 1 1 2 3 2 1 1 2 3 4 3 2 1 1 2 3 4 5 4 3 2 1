@@ -1,0 +1,23 @@
+def pyramid():
+        odd=1
+        for i in range(1,6):
+            k=0
+            for j in range(1,odd+1):
+               if (j<=i):
+                  k=k+1
+               else:
+                  k=k-1
+               print(k,end="")
+            print()
+            odd=odd+2
+pyramid()     
+
+
+
+
+OUTPUT:
+1
+121
+12321
+1234321
+123454321
